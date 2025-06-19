@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Love you 3000</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #0b0c10;
+      color: #66fcf1;
+      font-family: 'Courier New', Courier, monospace;
+      text-align: center;
+    }
+
+    header {
+      padding: 30px 0 10px 0;
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+
+    .intro {
+      font-size: 1rem;
+      color: #c5c6c7;
+    }
+
+    .button-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+      gap: 12px;
+      padding: 30px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    button {
+      background-color: transparent;
+      border: 1px solid #66fcf1;
+      color: #66fcf1;
+      padding: 10px;
+      border-radius: 6px;
+      font-size: 0.9rem;
+      cursor: pointer;
+      transition: all 0.2s ease-in-out;
+    }
+
+    button:hover {
+      background-color: #66fcf1;
+      color: #0b0c10;
+      transform: scale(1.03);
+    }
+
+    .footnote {
+      font-size: 0.75rem;
+      color: #888;
+      margin-top: 30px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>STARK SECURE C✪RE ARRAY</h1>
+<p class="intro">Final failsafe system online. Override protocol initiated by Stark Legacy AI. Only one node carries the farewell encryption key.</p>
+
+  </header>
+
+  <main class="button-grid">
+    {% include 'button_snippets.html' %}
+  </main>
+
+  <footer>
+    <p class="footnote">All systems monitored by F.R.I.D.A.Y • Stark Industries Confidential</p>
+  </footer>
+
+</body>
+</html>
