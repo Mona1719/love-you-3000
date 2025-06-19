@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+*.env
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# Flask & local development
+instance/
+*.db
+*.sqlite3
+
+# Logs
+*.log
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# VS Code
+.vscode/
+
+# Vercel (optional)
+.vercel/

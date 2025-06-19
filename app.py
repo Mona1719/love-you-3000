@@ -1,7 +1,8 @@
 from flask import Flask, render_template, request, jsonify
-import random
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)
 
 # Random correct button (or fixed for testing)
 CORRECT_BUTTON = 2019
