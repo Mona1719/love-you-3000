@@ -1,6 +1,6 @@
 # Love You 3000
 
-> A BNMIT CTF web challenge.
+> A BNMIT CTF web-challenge.
 
 ## 🔍 Challenge Description
 A grid of 1000 secure Stark nodes. Only one unlocks the override key. All others? Distractions crafted by F.R.I.D.A.Y.
